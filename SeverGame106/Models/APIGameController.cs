@@ -589,7 +589,7 @@ namespace ServerGame106.Models
         }
 
         [HttpGet("GetAllResultByUser/{userId}")]
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> GetAllResultByUser(string userId)
         {
             try
